@@ -21,7 +21,8 @@ header{
 
 .sec{
     margin-left: 300px;
-    background-color: rgb(238, 238, 255);
+    background-color: rgb(227, 227, 252);
+    height: 100%;
 }
 
 .input-group1{
@@ -56,10 +57,11 @@ header{
 
 .sidebar li span{
     color: rgb(1, 1, 95);
+    padding-left: 10px;
 }
 
 .sidebar li i , svg{
-    color: rgb(180, 180, 180);
+    color: rgb(1, 1, 95);
 }
 
 .div1{
@@ -95,3 +97,32 @@ header{
     float: left;
     padding: 5px;
 }
+
+.button {
+    padding: 5px 8px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .log2{
+    padding-bottom: 339px;
+  }
+
+  .log3{
+    padding-bottom: 212px;
+  }
