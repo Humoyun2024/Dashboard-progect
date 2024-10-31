@@ -145,3 +145,20 @@ header{
   .icons p{
     margin-left: 30px;    
 }
+
+.width{
+    width: 1040px;
+    float: right;
+    margin-right: 370px;
+    padding-top: 20px;
+}
+
+.big_div{
+    background-color: rgb(227, 227, 252);
+    float: right;
+    width: 1445.3px;
+}
+
+.card_1{
+    width: 100%;
+}
