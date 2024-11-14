@@ -6,9 +6,9 @@
 
 header{
     box-shadow: 0px 12px 20px 0px rgba(0,0,0,0.06);
-    height: 60px;
+    height: 75px;
     position: sticky;
-    top: 16px;
+    top: 1px;
     background-color: white;
 }
 
@@ -88,7 +88,7 @@ header{
 
 .div1 a{
     float: left;
-    padding: 10px;
+    padding: 9px;
 }
 
 .div2 {
@@ -151,8 +151,9 @@ header{
 .width{
     width: 1040px;
     float: right;
-    margin-right: 370px;
+    margin-right: 353px;
     padding-top: 20px;
+    border: none;
 }
 
 .big_div{
@@ -163,4 +164,9 @@ header{
 
 .card_1{
     width: 100%;
+}
+
+.text{
+    width: 72.5%;
+    margin-left: 2.4rem;
 }
