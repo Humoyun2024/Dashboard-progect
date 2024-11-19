@@ -170,3 +170,8 @@ header{
     width: 65.5%;
     margin-left: 2.4rem;
 }
+
+.status{
+    width: 80px;
+    border-radius: 50px;
+}
