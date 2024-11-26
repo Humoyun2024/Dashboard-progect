@@ -89,21 +89,29 @@
 
 <body>
     <header>
-        <nav class=" mb-2 align-text-top navbar">
-            <a class="navbar-brand ms-5" href="#">
-                <img src="img/logo.png" alt="" width="40" height="40" class="d-inline-block">
-                <span class="fs-3 fw-bold">NiceAdmin</span>
-            </a>
-            <label for="#" class="text2">
-                <i class="fa-solid fa-bars fs-4"></i>
-            </label>
-            <span class="input-group1">
-                <div class="input-group">
-                    <input type="text" class="btn border" placeholder="Search" aria-label="Username"
-                        aria-describedby="basic-addon1">
-                    <i class="fa-solid fa-magnifying-glass input-group-text text1" id="basic-addon1"></i>
+        <nav class=" mb-2 align-text-top navbar ">
+            <div class="row w-100">
+                <a class="navbar-brand ms-5 col-4" href="#" col->
+                    <img src="img/logo.png" alt="" width="40" height="40" class="d-inline-block">
+                    <span class="fs-3 fw-bold">NiceAdmin</span>
+                </a>
+                <div class="text1 col-1 mt-2">
+                    <i class="fa-solid fa-bars fs-4"></i>
                 </div>
-            </span>
+                <div class="input-group1 col-2 mt-2">
+                    <div class="input-group">
+                        <input type="text" class="btn border" placeholder="Search" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                        <i class="fa-solid fa-magnifying-glass input-group-text text1" id="basic-addon1"></i>
+                    </div>
+                </div>
+                <div class="col-4 mt-2">
+                    <p class="float-end">K.Anderson</p>
+                    <img class="float-end" src="./img/profile-img.jpg" alt="" width="50px" style="border-radius: 50px;">
+                    <i class="fa-regular fa-comment-dots text-end float-end"></i>
+                    <i class="fa-solid fa-bell text-end float-end"></i>
+                </div>
+            </div>
         </nav>
     </header>
     <div class="sidebar">
@@ -199,6 +207,7 @@
         </center>
     </div>
     <section class="sec ">
+        <br><br><br>
         <h3 class="ps-5 pt-3">Dashboard</h3>
         <p class="text-secondary ps-5">Home / Dashboard</p>
         <br>
@@ -368,73 +377,79 @@
         <br>
         <section class="width bg-light">
             <h1 class="text-secondary fs-5 ps-3 mt-4 h-25"><span class="text-primary fs-4">Top Selling</span>| Today <p
-                class="float-end me-3">...</p></h1>
-                <br><br>
-                <div class="container text-dark h-50">
-                    <div class="row">
-                        <div class="col">
-                            <div class="row ">
-                                <div class="col-2 h5">Preview</div>
-                                <div class="col-5 h5">Product	</div>
-                                <div class="col-1 h5"> Price</div>
-                                <div class="col-2 h5">Sold</div>
-                                <div class="col-2 h5">Revenue</div>
+                    class="float-end me-3">...</p>
+            </h1>
+            <br><br>
+            <div class="container text-dark h-50">
+                <div class="row">
+                    <div class="col">
+                        <div class="row ">
+                            <div class="col-2 h5">Preview</div>
+                            <div class="col-5 h5">Product </div>
+                            <div class="col-1 h5"> Price</div>
+                            <div class="col-2 h5">Sold</div>
+                            <div class="col-2 h5">Revenue</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="./img/product-1.jpg" alt="" width="50">
                             </div>
-                            <div class="row">
-                                <div class="col-2">
-                                    <img src="./img/product-1.jpg" alt="" width="50">
-                                </div>
-                                <div class="col-5 text-primary">	Ut inventore ipsa voluptas nulla</div>
-                                <div class="col-1">$64</div>
-                                <div class="col-2">124</div>
-                                <div class="col-2">$5,828</div>
+                            <div class="col-5 text-primary"> Ut inventore ipsa voluptas nulla</div>
+                            <div class="col-1">$64</div>
+                            <div class="col-2">124</div>
+                            <div class="col-2">$5,828</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="./img/product-2.jpg" alt="" width="50">
                             </div>
-                            <div class="row">
-                                <div class="col-2">
-                                    <img src="./img/product-2.jpg" alt="" width="50">
-                                </div>
-                                <div class="col-5 text-primary">	Exercitationem similique doloremque</div>
-                                <div class="col-1">$46</div>
-                                <div class="col-2">98</div>
-                                <div class="col-2">	$4,508</div>
+                            <div class="col-5 text-primary"> Exercitationem similique doloremque</div>
+                            <div class="col-1">$46</div>
+                            <div class="col-2">98</div>
+                            <div class="col-2"> $4,508</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="./img/product-3.jpg" alt="" width="50">
                             </div>
-                            <div class="row">
-                                <div class="col-2">
-                                    <img src="./img/product-3.jpg" alt="" width="50">
-                                </div>
-                                <div class="col-5 text-primary">	Doloribus nisi exercitationem</div>
-                                <div class="col-1">$59</div>
-                                <div class="col-2">74</div>
-                                <div class="col-2">	$4,366</div>
+                            <div class="col-5 text-primary"> Doloribus nisi exercitationem</div>
+                            <div class="col-1">$59</div>
+                            <div class="col-2">74</div>
+                            <div class="col-2"> $4,366</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="./img/product-4.jpg" alt="" width="50">
                             </div>
-                            <div class="row">
-                                <div class="col-2">
-                                    <img src="./img/product-4.jpg" alt="" width="50">
-                                </div>
-                                <div class="col-5 text-primary">	Officiis quaerat sint rerum error</div>
-                                <div class="col-1">$32</div>
-                                <div class="col-2">63</div>
-                                <div class="col-2">	$2,016</div>
+                            <div class="col-5 text-primary"> Officiis quaerat sint rerum error</div>
+                            <div class="col-1">$32</div>
+                            <div class="col-2">63</div>
+                            <div class="col-2"> $2,016</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="./img/product-5.jpg" alt="" width="50">
                             </div>
-                            <div class="row">
-                                <div class="col-2">
-                                    <img src="./img/product-5.jpg" alt="" width="50">
-                                </div>
-                                <div class="col-5 text-primary">	Sit unde debitis delectus repellendus</div>
-                                <div class="col-1">$79</div>
-                                <div class="col-2">41</div>
-                                <div class="col-2">$3,239</div>
-                            </div>
+                            <div class="col-5 text-primary"> Sit unde debitis delectus repellendus</div>
+                            <div class="col-1">$79</div>
+                            <div class="col-2">41</div>
+                            <div class="col-2">$3,239</div>
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
     </div>
     <div class="sidebar_right">
         <div class="sidebar_div1 bg-light">
-            <h1 class="text-secondary fs-5 ps-3 mt-4 h-25"><span class="text-primary fs-4">Recent Activity </span>| Today <p
-                class="float-end me-3">...</p></h1>
-                
+            <h1 class="text-secondary fs-5 ps-3 mt-4 h-25"><span class="text-primary fs-4">Recent Activity </span>|
+                Today <p class="float-end me-3">...</p>
+            </h1>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-1"></div>
+                .col-
+            </div>
         </div>
     </div>
 
